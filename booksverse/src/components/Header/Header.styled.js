@@ -10,7 +10,7 @@ export const HeaderContainer = styled.div`
 `;
 
 export const Logo = styled.img`
-  width: 100px;
+  width: 300px;
   height: auto;
   margin: 0 auto;
 `;

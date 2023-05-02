@@ -14,33 +14,45 @@ export const Container = styled.div`
     margin-bottom: 1rem;
     text-align: center;
   }
+  img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin-bottom: 5px;
+      }
 
   .products {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
-
     .product {
       background-color: white;
       border-radius: 0.5rem;
       padding: 1rem;
-      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-
+  
       h3 {
-        font-size: 1.5rem;
-        margin-top: 1rem;
+        font-size: 10px;
+        margin-bottom: 5px;
       }
 
       p {
-        font-size: 1rem;
+        font-size: 14px;
         color: #666;
-        margin-top: 0.5rem;
       }
     }
   }
+`;
+
+export const ProductWrapper = styled.li`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;`
+
+  export const ProductList = styled.ul`
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 `;

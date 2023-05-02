@@ -14,8 +14,10 @@ const Header = () => {
           <StyledBackButton>Home</StyledBackButton>
       </Link> 
 
-      <Logo src='https://cdn.discordapp.com/attachments/1103013126749823001/1103049361241419846/virtual_ventures-removebg-preview.png' alt="Logo" />
-
+      <Link to="/">
+      <Logo src='https://cdn.discordapp.com/attachments/1103013126749823001/1103071449855565915/logo.png' alt="Logo" />
+      </Link> 
+      
       <ButtonsContainer>
 
         <Link to="/login">
