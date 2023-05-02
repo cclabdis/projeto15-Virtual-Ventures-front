@@ -5,7 +5,7 @@ import Registration from "./pages/Registration/Registration";
 import HomePage from "./pages/HomePage/HomePage";
 import styled from "styled-components"
 import Header from "./components/Header/Header";
-// import Cart from "./pages/Cart/Cart";
+import Cart from "./pages/Cart/Cart";
 // import CheckOut from "./pages/checkout/Checkout"
 
 function App() {
@@ -42,13 +42,13 @@ function App() {
               setDadosUsuario={setDadosUsuario}
             />} />
 
-{/*           
+          
           <Route path="/cart" element={
             <Cart
               dadosUsuario={dadosUsuario}
             />} />
 
-          <Route path="/checkout" element={
+          {/* <Route path="/checkout" element={
             <CheckOut
               dadosUsuario={dadosUsuario}
             />} /> */}

@@ -39,3 +39,16 @@ export const SignUpButton = styled.button`
   border-radius: 0.5rem;
   cursor: pointer;
 `;
+
+export const StyledBackButton = styled.button`
+  background-color: #ffffff;
+  color: #0077cc;
+  border: 2px solid #0077cc;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;

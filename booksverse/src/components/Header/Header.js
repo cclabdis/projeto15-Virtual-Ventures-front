@@ -4,11 +4,16 @@ import {  HeaderContainer,
           Logo, 
           ButtonsContainer, 
           SignInButton, 
-          SignUpButton } from './Header.styled';
+          SignUpButton, 
+          StyledBackButton } from './Header.styled';
 
 const Header = () => {
   return (
     <HeaderContainer>
+      <Link to="/">
+          <StyledBackButton>Home</StyledBackButton>
+      </Link> 
+
       <Logo src='https://cdn.discordapp.com/attachments/1103013126749823001/1103049361241419846/virtual_ventures-removebg-preview.png' alt="Logo" />
 
       <ButtonsContainer>
