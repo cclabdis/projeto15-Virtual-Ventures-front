@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import Login from "./pages/Login/Login";
-// import Registration from "./pages/Registration/Registration";
+import Registration from "./pages/Registration/Registration";
 import HomePage from "./pages/HomePage/HomePage";
 import styled from "styled-components"
 import Header from "./components/Header/Header";
@@ -30,11 +30,11 @@ function App() {
               dadosUsuario={dadosUsuario}
               setDadosUsuario={setDadosUsuario} />} />
 
-          {/* <Route path="/registration" element={
+          <Route path="/registration" element={
             <Registration
               habilitado={habilitado}
               setHabilitado={setHabilitado}
-            />} /> */}
+            />} />
 
           <Route path="/login" element={
             <Login
